@@ -57,3 +57,105 @@ Thumbs.db
 # ==================================================
 *.tmp
 *.log
+# ==================================================
+# AMBIENTES VIRTUAIS PYTHON
+# ==================================================
+.venv/
+venv/
+env/
+
+
+# ==================================================
+# CACHE E ARQUIVOS TEMPORÁRIOS DO PYTHON
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ==================================================
+# IMAGENS E DADOS SENSÍVEIS DOS ALUNOS
+# ==================================================
+
+# Fotografias das folhas de frequência
+img/
+imagens/
+
+# Conjuntos de dados para testes e treinamento
+dataset/
+
+# Arquivos de dados locais
+dados/
+data/
+
+# Arquivos de planilhas e documentos
+*.xlsx
+*.xls
+*.csv
+*.ods
+*.pdf
+
+
+# ==================================================
+# CREDENCIAIS E VARIÁVEIS DE AMBIENTE
+# ==================================================
+.env
+.env.*
+*.env
+
+credentials.json
+secrets.json
+token.json
+service_account.json
+
+*.pem
+*.key
+
+
+# ==================================================
+# CONFIGURAÇÕES DO VS CODE
+# ==================================================
+.vscode/
+
+
+# ==================================================
+# ARQUIVOS DO SISTEMA OPERACIONAL
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==================================================
+# ARQUIVOS TEMPORÁRIOS E LOGS
+# ==================================================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+
+# ==================================================
+# ARQUIVOS GERADOS PELO PROJETO
+# ==================================================
+output/
+outputs/
+resultados/
+temp/
+cache/
+
+
+# ==================================================
+# EXCEÇÕES PARA ARQUIVOS DE EXEMPLO
+# ==================================================
+
+# Permite versionar modelos sem dados reais
+!*.example.csv
+!*.example.xlsx
+!*.example.env
